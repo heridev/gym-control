@@ -6,7 +6,8 @@ gem 'haml'
 gem 'jquery-rails'
 gem 'rails', '3.2.6'
 gem 'sqlite3'
-
+gem 'devise'
+gem 'rb-readline'
   # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

@@ -1,0 +1,9 @@
+= form_tag admin_session_path do
+  = label_tag(:admin_email, 'Correo')
+  = text_field_tag 'admin[email]'
+  = label_tag(:admin_password, 'Contraseña')
+  = password_field_tag 'admin[password]'
+  = check_box_tag 'admin[remember_me]'
+  = label_tag 'admin[remember_me]', 'Remember me'
+  %button Sign in
+  = link_to "Olvidaste tu password?", new_password_path('admin')
