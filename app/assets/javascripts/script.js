@@ -419,7 +419,7 @@ jQuery(document).ready(function(){
 
 				jQuery.jGrowl("This message will not open because we have a callback that returns false.", {
 					beforeOpen: function() {
-						console.log("Going to open a notification, but not really...");
+						
 					},
 					open: function() {
 						return false;
