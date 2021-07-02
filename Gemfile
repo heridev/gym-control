@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem 'haml'
 gem 'jquery-rails'
-gem 'rails', '3.2.6'
+gem 'rails', '4.0.0'
 gem 'sqlite3'
 gem 'devise'
 gem 'rb-readline'
